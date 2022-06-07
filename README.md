@@ -13,7 +13,7 @@ If you have any experience in SQL please review this basic assessment and be pre
 
 **Analytical Problem Solving Assessment**
 <br><br>
-We like to hear how people go about solving analytical problems step by step.  We there are multiple options so that you can choose the one that you are most comfortable with.  Choose just *ONE* and be prepared to discuss.
+We like to hear how people go about solving analytical problems step by step.  There are multiple options so that you can choose the one that you are most comfortable with.  Choose just *ONE* and be prepared to discuss.
 <br><br>
 [Replacement Windows](https://htmlpreview.github.io/?https://github.com/RJETAnalytics/evaluations/blob/main/ReplacementWindows.html)
 <br><br>
