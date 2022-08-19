@@ -49,7 +49,7 @@ WHERE
 
 
 4. How might the results of query #1 change if the LEFT JOIN was changed to INNER JOIN?
-
+<br>
 
 5. Will query #2 below return more rows or fewer rows than query #1.  
 
