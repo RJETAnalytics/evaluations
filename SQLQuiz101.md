@@ -44,7 +44,7 @@ WHERE
 3. I wanted to see every reservation made in 2021 but query #1 isn't showing all of them.  Why not?  
 
     a. How could the query be changed to make that happen?
-    
+
 4. How might the results of query #1 change if the LEFT JOIN was changed to INNER JOIN?
 
 5. Will query #2 below return more rows or fewer rows than query #1.  
