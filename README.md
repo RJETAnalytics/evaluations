@@ -18,3 +18,5 @@ We like to hear how people go about solving analytical problems step by step.  T
 [Replacement Windows](https://htmlpreview.github.io/?https://github.com/RJETAnalytics/evaluations/blob/main/ReplacementWindows.html)
 <br><br>
 [Cheating Teachers](https://htmlpreview.github.io/?https://github.com/RJETAnalytics/evaluations/blob/main/CheatingTeachers.html)
+
+version 1.2
