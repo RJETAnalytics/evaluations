@@ -19,8 +19,11 @@ ORDER BY
     NEWID();
 
 --Customer Table Sample 
-SELECT TOP 10
-	FirstName, LastName, FullName, CustID, CASE WHEN RIGHT(CustID, 1) <=7 THEN 'Active' ELSE 'Inactive' END Status,
+SELECT FullName, FirstName, LastName, CustID, Status, Level
+FROM
+(SELECT TOP 10
+    ROW_NUMBER() OVER(ORDER BY CustID) NameID,
+	CustID, CASE WHEN RIGHT(CustID, 1) <=7 THEN 'Active' ELSE 'Inactive' END Status,
 	CASE WHEN SUBSTRING(CustID, 4,1) <=3 THEN 'Bronze'
 	WHEN SUBSTRING(CustID, 4,1) <=7 THEN 'Silver' ELSE 'Gold' END Level
 FROM
@@ -30,10 +33,12 @@ FROM
 	CONCAT(FirstName, ' ', LastName) FullName,
 	EmployeeID CustID 
 FROM 
-    htl_AllRooms
+    htl_AllRooms a 
 WHERE LEN(EmployeeID) = 6) c
 ORDER BY 
-    NEWID();
+    NEWID()) x 
+INNER JOIN gen_RandomNames r ON x.NameID = r.NameID
+
 
 --Hotel Table Sample
 SELECT TOP 10
