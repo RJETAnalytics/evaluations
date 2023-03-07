@@ -5,7 +5,11 @@ output: html_document
 ---
 
 
-Here is a simple query that retrieves some information about historical hotel reservations.  For the purposes of this assessment, assume that you run this query "today".
+The Hotel database contains 285,000 customers, 12,355 hotels and 5,245,501 reservations.  Here is a random sampling of the three tables we will be looking at:<br>
+
+![ ](https://github.com/RJETAnalytics/evaluations/blob/main/Images/HotelTables.png?raw=true)
+
+Here is a simple query that retrieves some information about historical hotel reservations.  For the purposes of this assessment, assume that you run this query "today".<br><br>
 
 ```
 --##QUERY #1##--
