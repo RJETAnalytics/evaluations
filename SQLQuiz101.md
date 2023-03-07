@@ -1,6 +1,6 @@
 ---
 title: "SQL Quiz 101"
-author: "An interview assessment by RJET Finance Analytics"
+author: "Beginner SQL interview assessment by RJET Finance Analytics"
 output: html_document
 ---
 
