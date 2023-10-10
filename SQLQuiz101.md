@@ -23,8 +23,8 @@ SELECT
 	hotel.HotelName
 FROM
   customeraccounts as acct
-LEFT JOIN reservations as res on r.custid = c.custid
-LEFT JOIN hotel as hotel on h.hotelid = r.hotelid
+LEFT JOIN reservations as res on res.custid = acct.custid
+LEFT JOIN hotel as hotel on hotel.hotelid = res.hotelid
 WHERE
   acct.Status = 'Active' 
   AND res.ResStartDate between convert(datetime, '2021-01-01 00:00:00.0000') AND convert(datetime, '2021-12-31 23:59:59.9999')
@@ -71,8 +71,8 @@ SELECT
 	SUM(res.RoomRate)
 FROM
   customeraccounts as acct
-LEFT JOIN reservations as res on r.custid = c.custid
-LEFT JOIN hotel as hotel on h.hotelid = r.hotelid
+LEFT JOIN reservations as res on res.custid = acct.custid
+LEFT JOIN hotel as hotel on hotel.hotelid = res.hotelid
 WHERE
   acct.Status = 'Active' 
   AND res.ResStartDate between convert(datetime, '2021-01-01 00:00:00.0000') AND convert(datetime, '2021-12-31 23:59:59.9999')
