@@ -18,7 +18,7 @@ Note that using Chat GPT or similar services to to answer these questions is not
 We like to hear how people go about solving analytical problems step by step.  There are multiple options so that you can choose the one that you are most comfortable with.  Choose just *ONE* and be prepared to discuss.
 <br><br>
 
-[Making Estimates](https://htmlpreview.github.io/?https://github.com/RJETAnalytics/evaluations/blob/mainFermiEstimatesV1.html)
+[Making Estimates](https://github.com/RJETAnalytics/evaluations/blob/main/FermiEstimatesV1.md)
 <br><br>
 
 version 1.3
