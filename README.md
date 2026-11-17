@@ -18,8 +18,7 @@ Note that using Chat GPT or similar services to to answer these questions is not
 We like to hear how people go about solving analytical problems step by step.  There are multiple options so that you can choose the one that you are most comfortable with.  Choose just *ONE* and be prepared to discuss.
 <br><br>
 
-[Replacement Windows](https://htmlpreview.github.io/?https://github.com/RJETAnalytics/evaluations/blob/main/ReplacementWindows.html)
+[Making Estimates](https://htmlpreview.github.io/?https://github.com/RJETAnalytics/evaluations/blob/mainFermiEstimatesV1.html)
 <br><br>
-[Cheating Teachers](https://htmlpreview.github.io/?https://github.com/RJETAnalytics/evaluations/blob/main/CheatingTeachers.html)
 
-version 1.2
+version 1.3
