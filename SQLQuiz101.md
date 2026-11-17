@@ -18,7 +18,7 @@ SELECT
 	acct.Custid,
 	res.ReservationID,
 	res.ReservationStartDate,
-	res.ReservationesEndDate,
+	res.ReservationEndDate,
 	res.RoomRate,
 	hotel.HotelName
 FROM
@@ -27,7 +27,7 @@ LEFT JOIN reservations as res on res.custid = acct.custid
 LEFT JOIN hotel as hotel on hotel.hotelid = res.hotelid
 WHERE
   acct.Status = 'Active' 
-  AND res.ResStartDate between convert(datetime, '2021-01-01 00:00:00.0000') AND convert(datetime, '2021-12-31 23:59:59.9999')
+  AND res.ReservationStartDate between convert(datetime, '2021-01-01 00:00:00.0000') AND convert(datetime, '2021-12-31 23:59:59.9999')
 ```
 
 **Questions**
@@ -75,7 +75,7 @@ LEFT JOIN reservations as res on res.custid = acct.custid
 LEFT JOIN hotel as hotel on hotel.hotelid = res.hotelid
 WHERE
   acct.Status = 'Active' 
-  AND res.ResStartDate between convert(datetime, '2021-01-01 00:00:00.0000') AND convert(datetime, '2021-12-31 23:59:59.9999')
+  AND res.ReservationStartDate between convert(datetime, '2021-01-01 00:00:00.0000') AND convert(datetime, '2021-12-31 23:59:59.9999')
 GROUP BY
 	acct.Fullname,
 	acct.Custid
